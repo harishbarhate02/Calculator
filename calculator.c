@@ -33,7 +33,7 @@ int main()
        result=num1/num2;
              
       break;
-      default:printf("No reasult");
+      default:printf("No result");
    }
    printf("%f",result);
    return 0;

@@ -6,14 +6,11 @@ int main()
    char operation;
    float result;
 
-   printf("Enter the first number:");
-   scanf("%f",&num1);
+   printf("Enter the first number and second number:");
+   scanf("%f%f",&num1,&num2);
 
    printf("Enter the operation:");
    scanf(" %c",&operation);
-
-   printf("Enter the secoend number:");
-   scanf("%f",&num2);
 
    switch(operation)
    {
@@ -33,7 +30,7 @@ int main()
        result=num1/num2;
              
       break;
-      default:printf("No result");
+      default:printf("Error! operator is not correct");
    }
    printf("%f",result);
    return 0;

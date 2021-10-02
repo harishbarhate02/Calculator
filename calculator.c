@@ -34,6 +34,8 @@ int main()
        result=num1%num2;
              
       break;
+       case '&'
+        result=num1&num2;
       default:printf("Error! operator is not correct");
    }
    printf("%f",result);
